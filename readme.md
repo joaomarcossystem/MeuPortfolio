@@ -20,6 +20,8 @@ Uma imagem circular foi adicionada para **humanizar o portfólio** e equilibrar 
 
 * [💻 GitHub](https://github.com/joaomarcossystem) – Confira meus projetos e códigos.
 * [🔗 LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-marcos-411954217/) – Veja minha trajetória profissional e conexões.
+🌐 Portfólio Online
+ – Acesse meu portfólio completo diretamente no navegador.
 
 ---
 
