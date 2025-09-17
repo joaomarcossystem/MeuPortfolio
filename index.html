@@ -1,44 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio João Marcos</title>
+    <title>Portifolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header></header>
-    <main class="main-content">
-        <section class="sobre">
-            <h1 class="titulo">PORTFOLIO <strong>JOÃO MARCOS</strong></h1>
-                <p1 class="minha__descricao">Olá, sou estudante de Sistemas de Informação no Centro Universitário Católica do Leste de Minas Gerais, 
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Portfólio <strong 
+            class="titulo-destaque">JOÃO MARCOS
+            </strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá, sou estudante de Sistemas de Informação no Centro Universitário Católica do Leste de Minas Gerais, 
                     com formação técnica em Administração pelo Senac Minas. Desde 2024, atuo como Professor de Inglês 
                     na Wizard by Pearson, onde desenvolvo habilidades de comunicação e ensino. Tenho experiência em rotinas 
                     administrativas, participação em projetos de mentoria como o Projeto VOU da Usiminas, além de inglês 
                     avançado e conhecimentos em informática (Word, Excel e PowerPoint). Atualmente, meu foco é consolidar 
                     carreira em Tecnologia da Informação, unindo administração e idiomas para atuar de forma estratégica e
-                    inovadora.</p1>
-                <div class="apresentacao__dos__links">
-                    <a class="apresentacao__dos__links__link" href="https://github.com/joaomarcossystem">GitHub</a>
-                    <a class="apresentacao__dos__links__link" href="https://www.linkedin.com/in/jo%C3%A3o-marcos-411954217/">LinkedIn</a>
-                </div>
-                <ul class="lista__informacoes">
-                 <li>Sou estudante de Sistemas de Informação com foco em desenvolvimento Full Stack</li>
-                 <li>Áreas de interesse: Inteligência Artificial, Programação, Inovação & Gestão, Mobile, Data Science</li>
-                 <li>Sou professor de Inglês na Wizard by Pearson</li>
-                 <li>Tenho experiência em rotinas administrativas</li>
-                 <li>Tenho participação em projetos de mentoria</li>
-                 <li>Inglês avançado</li>
-                 <li>Conhecimentos em informática (Word, Excel e PowerPoint)</li>
-             </ul>
-        
+                    inovadora.</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/joaomarcossystem">
+                    <img src="./assets/github.png">
+                    Github
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/jo%C3%A3o-marcos-411954217/">
+                    <img src="./assets/linkedin.png">
+                    linkedin
+                </a>
+            </div>
         </section>
-              <img src="myphoto.png" alt="foto fo João Marcos" class="minha__imagem">
+        <img class="apresentacao__imagem" src="./assets/myphoto.png" alt="Foto de João Marcos">
     </main>
-    <footer>
-        <p>&copy; 2025 João Marcos. All rights reserved.</p>
+    <footer class="rodape">
         <p>Desenvolvido por João Marcos Moura</p>
     </footer>
 </body>
+
 </html>
